@@ -6,7 +6,7 @@ box-sizing:border-box;
 }
 
 body {
-  margin:35px;
+  margin:5px;
 }
 
 
@@ -24,6 +24,7 @@ header {
 header div.header_logo2 {
   text-align: left;
   margin:0;
+  background-color: #ffffff;
 }
 
 
@@ -32,6 +33,7 @@ header div.header_logo2 img {
   align-content: left;
   width:auto;
   height:100px;
+  background-color: #ffffff;
 }
 
 ul {
@@ -47,7 +49,7 @@ ul li { display: inline-block}
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 4px 4px;
     text-decoration: none;
 }
 
@@ -63,6 +65,14 @@ div#MainContent {
   padding-left:10px;
   padding-right:10px;
   padding-bottom:20px;
+  background-color: #f2f2f2;
+}
+
+a.SeeMore {
+  font-size: 1.5em;
+  margin: 3em auto 0 auto;
+  background-color: #736AFF
+
 }
 
 /* Slideshow container */
